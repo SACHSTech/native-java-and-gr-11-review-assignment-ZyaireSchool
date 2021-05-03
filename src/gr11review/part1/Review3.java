@@ -12,7 +12,7 @@ public class Review3{
       }
     }
     
-    System.out.println("                                                                       ");
+    System.out.println(" ");
     
     for (count = 29; count >= 2; count--){
         System.out.println(count);

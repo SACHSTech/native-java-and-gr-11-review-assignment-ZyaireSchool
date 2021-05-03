@@ -1,5 +1,7 @@
 package gr11review.part1;
 import java.io.*;
+import java.text.*;
+
 public class Review4{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
@@ -13,11 +15,11 @@ public class Review4{
     double total;
     double itemPrice;
 
-    System.out.println("How many items do you want to buy? ");
+    System.out.print("How many items do you want to buy? ");
     items = Integer.parseInt(key.readLine());
   
     for (count = 1; count <= items; count++){
-      System.out.println("Enter the price for item " + count + ": ");
+      System.out.print("Enter the price for item " + count + ": ");
       itemPrice = Double.parseDouble(key.readLine());
       subtotal += itemPrice;
     }
