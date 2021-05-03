@@ -2,6 +2,10 @@ package gr11review.part1;
 import java.io.*;
 import java.text.*;
 
+/**
+ * This is my native java review4, calculate the item price including num of items
+ * @author: Zyaire, Qu
+ */  
 public class Review4{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

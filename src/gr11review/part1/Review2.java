@@ -1,6 +1,10 @@
 package gr11review.part1;
 import java.io.*;
 
+/**
+ * This is my native java review2, print some jokes...
+ * @author: Zyaire, Qu
+ */  
 public class Review2{
   public static void main(String[] args) throws IOException{
 

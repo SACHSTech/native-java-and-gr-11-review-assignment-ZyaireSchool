@@ -1,5 +1,10 @@
 package gr11review.part1;
 import java.io.*;
+
+/**
+ * This is my native java review5, calculate the invenstment thing
+ * @author: Zyaire, Qu
+ */  
 public class Review5{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

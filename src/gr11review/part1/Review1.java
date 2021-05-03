@@ -1,6 +1,10 @@
 package gr11review.part1;
 import java.io.*;
 
+/**
+ * This is my native java review1, coverting month to days
+ * @author: Zyaire, Qu
+ */    
 public class Review1{
   public static void main(String[] args) throws IOException{
 

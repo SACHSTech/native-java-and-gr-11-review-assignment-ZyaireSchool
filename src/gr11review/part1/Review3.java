@@ -1,6 +1,10 @@
 package gr11review.part1;
 import java.io.*;
 
+/**
+ * This is my native java review3, finding the odd nums and count down
+ * @author: Zyaire, Qu
+ */  
 public class Review3{
   public static void main(String[] args) throws IOException{
 

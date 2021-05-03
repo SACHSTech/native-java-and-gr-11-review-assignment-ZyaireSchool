@@ -1,5 +1,10 @@
 package gr11review.part1;
 import java.io.*;
+
+/**
+ * This is my native java review7, to check how many parts include in a sentence
+ * @author: Zyaire, Qu
+ */  
 public class Review7{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));

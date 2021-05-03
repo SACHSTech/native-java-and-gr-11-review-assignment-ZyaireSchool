@@ -1,6 +1,10 @@
 package gr11review.part1;
 import java.io.*;
 
+/**
+ * This is my native java review8, this is a slot simulator, it can check how many times triples appears.
+ * @author: Zyaire, Qu
+ */  
 public class Review8{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
