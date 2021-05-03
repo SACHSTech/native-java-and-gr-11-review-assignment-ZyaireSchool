@@ -3,23 +3,23 @@ import java.io.*;
 public class Review5{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
-
+    //vars
     int year = 0;
 	  double investAmt;
 	  double intrestRate;
 	  double targetAmt;
 	  double totalAmt = 0;
 
-	  System.out.print("Enter the yearly invested amount: ");
+	  System.out.print("Enter the yearly invested amount: ");//invest amount get
 	  investAmt = Double.parseDouble(key.readLine());
 
-	  System.out.print("Enter the compound interest rate: ");
+	  System.out.print("Enter the compound interest rate: ");//rate get
 	  intrestRate = Double.parseDouble(key.readLine());
 
-	  System.out.print("Enter the target amount: ");
+	  System.out.print("Enter the target amount: ");//target get
 	  targetAmt = Double.parseDouble(key.readLine());
 	    
-	  while (totalAmt < targetAmt){
+	  while (totalAmt < targetAmt){//here to get the year
 	    totalAmt += investAmt;
 	    totalAmt += (totalAmt * (intrestRate / 100));
 	    year++;

@@ -4,17 +4,17 @@ public class Review7{
   public static void main(String[] args) throws IOException{
     BufferedReader key = new BufferedReader(new InputStreamReader(System.in));
     
-    String sentence;
+    String sentence;//vars state
 	  int count;
 	  int characters;
 	  int space = 0;  
 	  int letterA = 0; 
 	  String dash = ""; 
 
-	  sentence = key.readLine();
+	  sentence = key.readLine();//get the var value
 	  characters = sentence.length();
 
-	  for (count = 0; count < characters; count++){
+	  for (count = 0; count < characters; count++){//here to see how many things include in the sentence
 	    char OneCharacter = sentence.charAt(count);
 	    if(OneCharacter == ' '){
 	    	space++;
